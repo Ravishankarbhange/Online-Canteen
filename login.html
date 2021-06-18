@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Ravishankar</title>
+		<style>
+        *{
+            background-color: #dcf7e6;
+        }
+        .form{
+            width: fit-content;
+            /* background-color:beige; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #btnSubmit{
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 10px;
+            width: 10%;
+		border-radius: 55px;
+        }
+
+    </style>
+
+	</head>
+	<body>
+		<center>
+
+		<form action="action_page.php">
+  <div class="container">
+		<br><br><br><br>
+    <h1>Login</h1>
+    <p>Please use proper credentials</p>
+    <hr align="center" width="35%">
+		<table>
+		   <tbody>
+		     <tr>
+		       <td><label for="name"><b>NAME</b></label></td>
+		       <td><input type="text" placeholder="Enter Name" name="name" id="name" required><br></td>
+		     </tr>
+		  </tbody>
+			<tbody>
+				<tr>
+					<td><label for="password"><b>PASSWORD</b></label></td>
+					<td><input type="password" placeholder="Enter Password" name="password" id="password" required><br></td>
+				</tr>
+		 </tbody>
+		</table><br>
+    <button id="btnSubmit" type="submit" class="registerbtn">Login</button>
+  </div>
+  <div class="container signin">
+  </div>
+</form>
+</center>
+	</body>
+</html>

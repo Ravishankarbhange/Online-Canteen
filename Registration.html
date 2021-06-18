@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Ravishankar</title>
+		<style>
+        *{
+            background-color: #dcf7e6;
+        }
+        .form{
+            width: fit-content;
+            /* background-color:beige; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #btnSubmit{
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 10px;
+            width: 10%;
+		border-radius: 55px;
+        }
+
+    </style>
+
+	</head>
+	<body>
+		<center>
+
+		<form action="action_page.php">
+  <div class="container">
+		<br><br><br><br>
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr align="center" width="35%">
+		<table>
+		   <tbody>
+		     <tr>
+		       <td><label for="name"><b>NAME</b></label></td>
+		       <td><input type="text" placeholder="Enter Name" name="name" id="name" required><br></td>
+		     </tr>
+		  </tbody>
+			<tbody>
+				<tr>
+					<td><label for="password"><b>PASSWORD</b></label></td>
+					<td><input type="password" placeholder="Enter Password" name="password" id="password" required><br></td>
+				</tr>
+		 </tbody>
+		 <tbody>
+			 <tr>
+				 <td><label for="email"><b>EMAIL</b></label></td>
+				 <td><input type="email" placeholder="Enter Email" name="email" id="email" required><br></td>
+			 </tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td><label for="dateofbirth"><b>DATE OF BIRTH</b></label></td>
+				<td><input type="date" placeholder="dd-mm-yyyy" name="dateofbirth" id="dateofbirth" required><br></td>
+			</tr>
+	 </tbody>
+	 <tbody>
+		 <tr>
+			 <td><label for="Genter"><b>GENDER</b></label></td>
+			 <td><input type="radio" id="male" name="gender" value="male">
+				 		<label for="male">Male</label>
+				 		<input type="radio" id="female" name="gender" value="female">
+				 		<label for="female">Female</label>
+				 		<input type="radio" id="other" name="gender" value="other">
+				 		<label for="other">Other</label><br>
+			</td>
+		 </tr>
+	</tbody>
+		</table><br><br>
+		<input type="checkbox" name="" id="accept">
+            <label for="accept">I agree to terms provided in the discription</label><br><br>
+    <button id="btnSubmit" type="submit" class="registerbtn">Register</button>
+  </div>
+  <div class="container signin">
+  </div>
+</form>
+</center>
+	</body>
+</html>
